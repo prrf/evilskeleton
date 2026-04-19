@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://n40l06ei8qei"]
+
+[ext_resource type="Texture2D" uid="uid://br1eslqc8a1h1" path="res://evil/evil skeleton_00009.png" id="1_24dk6"]
+[ext_resource type="Texture2D" uid="uid://b3i1p88py8j7e" path="res://evil/evil skeleton_00010.png" id="2_mryly"]
+[ext_resource type="Texture2D" uid="uid://b637bl23a7tso" path="res://evil/evil skeleton_00011.png" id="3_kq1c5"]
+[ext_resource type="Texture2D" uid="uid://ct6m517k03ck5" path="res://evil/evil skeleton_00012.png" id="4_ornx7"]
+[ext_resource type="Texture2D" uid="uid://cp6kfjlw0rrxd" path="res://evil/evil skeleton_00013.png" id="5_cnnru"]
+[ext_resource type="Texture2D" uid="uid://c10lcwgcokh2k" path="res://evil/evil skeleton_00014.png" id="6_540hr"]
+[ext_resource type="Texture2D" uid="uid://dqey5jm6igtwx" path="res://evil/evil skeleton_00015.png" id="7_6ip5v"]
+[ext_resource type="Texture2D" uid="uid://culs4fmgy0aq8" path="res://evil/evil skeleton_00016.png" id="8_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://be8s2wl5n1m47" path="res://evil/evil skeleton_00017.png" id="9_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://v8x3wdqbp84r" path="res://evil/evil skeleton_00018.png" id="10_7plk7"]
+[ext_resource type="Texture2D" uid="uid://djtr54adlfttt" path="res://evil/evil skeleton_00019.png" id="11_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://cxgih8hgy16ln" path="res://evil/evil skeleton_00020.png" id="12_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://cj3c6kbp2sxto" path="res://evil/evil skeleton_00021.png" id="13_fshgd"]
+[ext_resource type="Texture2D" uid="uid://c2vcpn12d1vgy" path="res://evil/evil skeleton_00022.png" id="14_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://bey4j1g4ksgsr" path="res://evil/evil skeleton_00023.png" id="15_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://dj6sk563s06xt" path="res://evil/evil skeleton_00024.png" id="16_0xo8l"]
+[ext_resource type="Texture2D" uid="uid://cw0eor8tq72oh" path="res://evil/evil skeleton_00025.png" id="17_xfyss"]
+[ext_resource type="Texture2D" uid="uid://c4c82sx1gntda" path="res://evil/evil skeleton_00026.png" id="18_3ngjr"]
+[ext_resource type="Texture2D" uid="uid://cjtsm0ogqtb50" path="res://evil/evil skeleton_00027.png" id="19_qilgh"]
+[ext_resource type="Texture2D" uid="uid://cb53lwio7lt2h" path="res://evil/evil skeleton_00028.png" id="20_4qosj"]
+[ext_resource type="Texture2D" uid="uid://cwnff4lok32hc" path="res://evil/evil skeleton_00029.png" id="21_cjlbh"]
+[ext_resource type="Texture2D" uid="uid://s6puonm7tiw3" path="res://evil/evil skeleton_00030.png" id="22_kfelt"]
+[ext_resource type="Texture2D" uid="uid://hpbslth26nv0" path="res://evil/evil skeleton_00031.png" id="23_ytlpd"]
+[ext_resource type="Texture2D" uid="uid://di848a6eda0qa" path="res://evil/evil skeleton_00032.png" id="24_2v765"]
+[ext_resource type="Texture2D" uid="uid://bonv6jyc7enru" path="res://evil/evil skeleton_00033.png" id="25_b8fb0"]
+[ext_resource type="Texture2D" uid="uid://df8xk2kjbup67" path="res://evil/evil skeleton_00034.png" id="26_ma08v"]
+[ext_resource type="Texture2D" uid="uid://hjeqpwaxkxvh" path="res://evil/evil skeleton_00035.png" id="27_s32dh"]
+[ext_resource type="Texture2D" uid="uid://be3pk2i21qal1" path="res://evil/evil skeleton_00036.png" id="28_037st"]
+[ext_resource type="Texture2D" uid="uid://b24efvv7ile2v" path="res://evil/evil skeleton_00037.png" id="29_6orn5"]
+[ext_resource type="Texture2D" uid="uid://by1bewx8463fl" path="res://evil/evil skeleton_00038.png" id="30_whnp6"]
+[ext_resource type="Texture2D" uid="uid://dnlkluok2pmiu" path="res://evil/evil skeleton_00039.png" id="31_22e24"]
+[ext_resource type="Script" uid="uid://d0beefof72uav" path="res://animated_sprite_2d.gd" id="32_mryly"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m7xe6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_24dk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mryly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_kq1c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ornx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cnnru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_540hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6ip5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_q5dlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_c4wnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7plk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fbwgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_7mj2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fshgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lbrxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_xjt7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0xo8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xfyss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3ngjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_qilgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4qosj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cjlbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kfelt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ytlpd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_2v765")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_b8fb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ma08v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_s32dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_037st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_6orn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_whnp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_22e24")
+}],
+"loop": false,
+"name": &"default",
+"speed": 50.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=991933057]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1388827412]
+position = Vector2(970.00006, 536)
+scale = Vector2(1.0901042, 1.0342592)
+sprite_frames = SubResource("SpriteFrames_m7xe6")
+script = ExtResource("32_mryly")
+
+[node name="Timer" type="Timer" parent="." unique_id=1168952910]
+autostart = true
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1709445651]
+polygon = PackedVector2Array(-1, -1, 0, -1, 0, 0, -1, 0)
+
+[connection signal="timeout" from="Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]
