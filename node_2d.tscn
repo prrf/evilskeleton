@@ -32,6 +32,7 @@
 [ext_resource type="Texture2D" uid="uid://by1bewx8463fl" path="res://evil/evil skeleton_00038.png" id="30_whnp6"]
 [ext_resource type="Texture2D" uid="uid://dnlkluok2pmiu" path="res://evil/evil skeleton_00039.png" id="31_22e24"]
 [ext_resource type="Script" uid="uid://d0beefof72uav" path="res://animated_sprite_2d.gd" id="32_mryly"]
+[ext_resource type="Script" uid="uid://bjyptwf1626fj" path="res://play.gd" id="33_kq1c5"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m7xe6"]
 animations = [{
@@ -135,12 +136,15 @@ animations = [{
 }]
 
 [node name="Node2D" type="Node2D" unique_id=991933057]
+script = ExtResource("32_mryly")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1388827412]
-position = Vector2(970.00006, 536)
-scale = Vector2(1.0901042, 1.0342592)
+position = Vector2(932.25, 536)
+scale = Vector2(1.1294271, 1.0342592)
 sprite_frames = SubResource("SpriteFrames_m7xe6")
-script = ExtResource("32_mryly")
+frame = 30
+frame_progress = 1.0
+script = ExtResource("33_kq1c5")
 
 [node name="Timer" type="Timer" parent="." unique_id=1168952910]
 autostart = true
@@ -148,4 +152,5 @@ autostart = true
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1709445651]
 polygon = PackedVector2Array(-1, -1, 0, -1, 0, 0, -1, 0)
 
+[connection signal="health_depleted" from="." to="AnimatedSprite2D" method="_on_node_2d_health_depleted"]
 [connection signal="timeout" from="Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]
