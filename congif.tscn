@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bl8xwbyjde11l"]
+
+[ext_resource type="Texture2D" uid="uid://c4ektcpkdkcqe" path="res://son.png" id="1_mnby7"]
+
+[node name="Window" type="Window" unique_id=2108835194]
+oversampling_override = 1.0
+title = "Evil Skeleton Config"
+position = Vector2i(0, 36)
+size = Vector2i(345, 252)
+force_native = true
+
+[node name="Son" type="Sprite2D" parent="." unique_id=1020780084]
+position = Vector2(171, 181)
+scale = Vector2(0.18375, 0.324)
+texture = ExtResource("1_mnby7")
+
+[node name="Button" type="Button" parent="." unique_id=1697484347]
+offset_left = 115.0
+offset_top = 101.0
+offset_right = 223.0
+offset_bottom = 158.0
+text = "summon H I M"

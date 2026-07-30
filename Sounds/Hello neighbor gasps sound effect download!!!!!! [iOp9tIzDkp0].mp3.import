@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdqyr1kb40bqm"
+path="res://.godot/imported/Hello neighbor gasps sound effect download!!!!!! [iOp9tIzDkp0].mp3-3969f82ebc7c9dbc481b5a513713ef80.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Hello neighbor gasps sound effect download!!!!!! [iOp9tIzDkp0].mp3"
+dest_files=["res://.godot/imported/Hello neighbor gasps sound effect download!!!!!! [iOp9tIzDkp0].mp3-3969f82ebc7c9dbc481b5a513713ef80.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

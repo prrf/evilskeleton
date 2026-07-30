@@ -33,6 +33,12 @@
 [ext_resource type="Texture2D" uid="uid://dnlkluok2pmiu" path="res://evil/evil skeleton_00039.png" id="31_22e24"]
 [ext_resource type="Script" uid="uid://d0beefof72uav" path="res://animated_sprite_2d.gd" id="32_mryly"]
 [ext_resource type="Script" uid="uid://bjyptwf1626fj" path="res://play.gd" id="33_kq1c5"]
+[ext_resource type="AudioStream" uid="uid://cdqyr1kb40bqm" path="res://Sounds/Hello neighbor gasps sound effect download!!!!!! [iOp9tIzDkp0].mp3" id="34_c4wnb"]
+[ext_resource type="AudioStream" uid="uid://ci00xnbqycpjd" path="res://Sounds/lego_breaking.mp3" id="35_7plk7"]
+[ext_resource type="AudioStream" uid="uid://imkucr7vd4dm" path="res://Sounds/moon_church_bell.mp3" id="36_fbwgr"]
+[ext_resource type="AudioStream" uid="uid://3a0pmqrpce6v" path="res://Sounds/ryan-gosling-bur2p.mp3" id="37_7mj2a"]
+[ext_resource type="AudioStream" uid="uid://dxmoes38f81my" path="res://Sounds/Surprise_Boom.mp3" id="38_fshgd"]
+[ext_resource type="AudioStream" uid="uid://0ik1wg12kgjm" path="res://Sounds/vine_boom.mp3" id="39_lbrxf"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m7xe6"]
 animations = [{
@@ -129,20 +135,29 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("31_22e24")
+}, {
+"duration": 1.0,
+"texture": null
 }],
-"loop": false,
+"loop": 0,
 "name": &"default",
 "speed": 50.0
 }]
 
 [node name="Node2D" type="Node2D" unique_id=991933057]
 script = ExtResource("32_mryly")
+sound1 = ExtResource("34_c4wnb")
+sound2 = ExtResource("35_7plk7")
+sound3 = ExtResource("36_fbwgr")
+sound4 = ExtResource("37_7mj2a")
+sound5 = ExtResource("38_fshgd")
+sound6 = ExtResource("39_lbrxf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1388827412]
 position = Vector2(932.25, 536)
 scale = Vector2(1.1294271, 1.0342592)
 sprite_frames = SubResource("SpriteFrames_m7xe6")
-frame = 30
+frame = 31
 frame_progress = 1.0
 script = ExtResource("33_kq1c5")
 
@@ -152,5 +167,11 @@ autostart = true
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1709445651]
 polygon = PackedVector2Array(-1, -1, 0, -1, 0, 0, -1, 0)
 
+[node name="Time" type="Label" parent="." unique_id=583201101]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+text = "0"
+
 [connection signal="health_depleted" from="." to="AnimatedSprite2D" method="_on_node_2d_health_depleted"]
-[connection signal="timeout" from="Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
